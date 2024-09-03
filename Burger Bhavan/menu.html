@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Hut</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!--header section-->
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.jpg" alt="Burger Hut Logo" width="40" height="40"
+                    class="d-inline-block align-text-top">
+                    Burger Bhavan
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="online_order.html">Order Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="order.html">Order Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--hero section-->
+    <section id="hero" class="text-center py-3">
+        <div class="container">
+            <h1>Bite into Happiness</h1>
+            <p>Best Burgers in Town</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Our Menu</h2>
+                    <p class="lead">Discover our delicious offerings</p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak" data-text="Classic Burger">
+                        <img src="img/burger1.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Classic Burger</h5>
+                            <p class="card-text">Our signature burger with all the classic fixings.</p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="BBQ Bacon Burger">
+                        <img src="img/burger2.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">BBQ Bacon Burger</h5>
+                            <p class="card-text">Juicy burger topped with BBQ sauce and crispy bacon.</p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="Veggie Burger">
+                        <img src="img/burger3.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Veggie Burger</h5>
+                            <p class="card-text">Delicious vegetarian option with fresh veggies.</p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="Mountain Melt">
+                        <img src="img/burger4.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Mountain Melt</h5>
+                            <p class="card-text">A towering burger stacked with double beef patties, melted cheddar,
+                                crispy bacon, caramelized onions, and a smoky BBQ sauce, all nestled in a toasted
+                                brioche bun.</p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="Hawaiian Sunset">
+                        <img src="img/burger5.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Hawaiian Sunset</h5>
+                            <p class="card-text">A tropical twist on a classic, featuring a juicy beef patty topped with
+                                grilled pineapple, ham, Swiss cheese, and a sweet teriyaki glaze.</p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="Spicy Avocado Crunch">
+                        <img src="img/burger6.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Spicy Avocado Crunch</h5>
+                            <p class="card-text">A spicy delight with a beef patty, pepper jack cheese, avocado slices,
+                                crispy tortilla strips, jalapenos, and a zesty chipotle mayo.</p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 7 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="French Connection">
+                        <img src="img/burger7.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">French Connection</h5>
+                            <p class="card-text">A sophisticated burger with a beef patty, creamy brie cheese,
+                                caramelized onions, arugula, and a dollop of Dijon mustard, served on a ciabatta roll.
+                            </p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 8 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="Buffalo Blue">
+                        <img src="img/burger8.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Buffalo Blue</h5>
+                            <p class="card-text">A bold creation with a beef patty, tangy buffalo sauce, blue cheese
+                                crumbles, lettuce, and tomato, all in a soft pretzel bun.</p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 9-->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="Southern Charm">
+                        <img src="img/burger9.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Southern Charm</h5>
+                            <p class="card-text">A hearty burger featuring a beef patty, pimento cheese, fried green
+                                tomato, lettuce, and a dash of hot sauce, all in a toasted potato bun.</p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 10-->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="Greek Goddess">
+                        <img src="img/burger10.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Greek Goddess</h5>
+                            <p class="card-text">A Mediterranean-inspired burger with a lamb patty, feta cheese,
+                                cucumber, red onion, tomato, and tzatziki sauce, served on a pita bun.</p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 11-->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="Mushroom Truffle">
+                        <img src="img/burger11.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Mushroom Truffle</h5>
+                            <p class="card-text">An earthy delight with a beef patty, sautéed mushrooms, truffle aioli,
+                                Swiss cheese, and arugula, all in a toasted brioche bun.</p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 12-->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="Italian Stallion">
+                        <img src="img/burger12.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Italian Stallion</h5>
+                            <p class="card-text">An Italian-inspired burger with a beef patty, mozzarella cheese,
+                                marinara sauce, pepperoni slices, and fresh basil, served on a garlic-buttered roll.</p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 13-->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-dark border-light speak " data-text="Maple Bacon Delight">
+                        <img src="img/burger13.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Maple Bacon Delight</h5>
+                            <p class="card-text">A sweet and savory burger with a beef patty, crispy bacon, cheddar
+                                cheese, caramelized onions, and a drizzle of maple syrup, all in a toasted brioche bun.
+                            </p>
+                            <a href="order.html" class="btn btn-primary speak " data-text="order now">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>

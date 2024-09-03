@@ -1,0 +1,223 @@
+/*header*/
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar-brand img {
+    filter: brightness(0) invert(1); /* For dark theme logo */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #bbbbbb;
+}
+
+.btn-primary {
+    background-color: #ff5722;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e64a19;
+}
+
+
+
+/*signature burgers*/
+  .card {
+    border: none;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/*special offers*/
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.offer-card {
+    transition: transform 0.3s;
+}
+
+.offer-card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/*coustomer reviews*/
+.card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+}
+
+.card-title {
+  color: #f8f9fa;
+}
+
+.card-subtitle {
+  color: #6c757d;
+}
+
+.card-text {
+  color: #d3d3d3;
+}
+
+.text-muted {
+  color: #9a9a9a !important;
+}
+
+#customer-reviews h2 {
+  color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/*location*/
+#locations {
+  background-color: #1c1c1c;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.map-container {
+  width: 100%;
+  height: 200px;
+  margin-top: 15px;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/*onlineorder*/
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f8f9fa;
+}
+
+.section-subtitle {
+  font-size: 1.25rem;
+  color: #ced4da;
+}
+
+.card-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #e9ecef;
+}
+
+.btn-outline-light {
+  border-color: #f8f9fa;
+  color: #f8f9fa;
+}
+
+.btn-outline-light:hover {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+/*contact*/
+#contact {
+  padding: 60px 0;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#contact .lead {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+
+#contact .form-control {
+  border-radius: 0.25rem;
+  box-shadow: none;
+}
+
+#contact .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  transition: background-color 0.3s ease;
+}
+
+#contact .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+footer {
+  color: #fff;
+}
